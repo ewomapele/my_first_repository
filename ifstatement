@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "what's your name"
+read name
+echo "hello, $name!"
+
+echo "are you hungry? (yes or no)"
+read answer
+
+if [ "$answer" = "yes" ];then
+echo "let's eat something!"
+fi
