@@ -1,8 +1,8 @@
 #!/bin/bash
 
-count=1
-while [ $count -le 5 ]; do
-	echo "count is $count"
-	((count++))
+yay=1
+while [ $yay -le 3 ]; do
+	echo "count is $yay"
+	((yay++))
 done	
 
