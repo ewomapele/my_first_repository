@@ -1,9 +1,9 @@
 #!/bin/bash
 
-count=she is learning bash
+count=learning bash
 
-while [ $count -le 5 ]; do
-      echo "print is $count"
-      ((count++))
+while [ $count -gt 5 ]; do
+      echo "count is $count"
+      ((print++))
 done      
 
